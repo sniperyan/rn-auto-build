@@ -4,7 +4,8 @@ set -x
 set -e
 
 ios_export_plist="./ios-export/ad-hoc.plist"
-ios_app_save_dir=./ios-export/build/app-$(date +%Y-%m-%d-%H-%M-%S)
+ios_app_save_dir=./ios-export/build/app-ios
+# ios_app_save_dir=./ios-export/build/app-$(date +%Y-%m-%d-%H-%M-%S)
 archive_path=./ios-export/build/archive.xcarchive
 
 mkdir -p ios-export/build

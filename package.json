@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "build-ios-ipa": "./src/build-ios.sh"
+    "build-ios-ipa": "./src/build-ios.sh",
+    "build-android": "./src/build-android.sh"
   },
   "author": "",
   "license": "ISC"
